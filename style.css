@@ -1,0 +1,38 @@
+.ai-grid:before,
+.ai-grid:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+.ai-grid:after {
+  clear: both;
+}
+
+.ai-grid > * {
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  margin: 0;
+  float: left;
+}
+
+.ai-width-1-5 {
+  width: 20%;
+}
+
+.ai-width-1-2 {
+  width: 50%;
+}
+
+.ai-text-right {
+  text-align: right;
+}
+
+.ai-text-center {
+  text-align: center;
+}
+
+.ai-oc {
+  cursor:pointer;
+  cursor:hand
+}
